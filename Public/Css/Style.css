@@ -1,0 +1,74 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0 px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header */
+
+header ul li a:hover{ 
+    font-size: 18px;
+}
+.logo{
+    max-width: 100%;
+    margin-left: 1%;
+}
+.logo:hover{
+    transform: scale(1.07) ;
+}
+
+.boton-anadir{
+    background-color:#fdfdfd70;
+    border:#fdfdfd70;
+} 
+
+.boton-anadir:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.search{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #c8dce625;
+    border-color: black;
+}
+
+
+/* Cuerpo */
+
+
+
+
+/* Icono Flotante */
+.iconoW{
+    z-index: 20;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}
+
+.iconoW button{
+    height: 50px;
+    width: 50px;
+    background-color: #27cd40;
+    border-radius: 100% ;
+    border: solid #27cd40;
+}
+.iconoW button :hover{
+    cursor: pointer;
+}
+.iconoW button i{
+    color: white;
+    font-size: 30px;
+}
+
+.iconoW button i:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+
+
