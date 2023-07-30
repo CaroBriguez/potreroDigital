@@ -40,10 +40,38 @@ header ul li a:hover{
 
 /* Cuerpo */
 
+.info{
+    font-family: "Open Sans",sans-serif;
+    font-weight: bold;
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+    text-align:center;
 
+}
+.articuloPro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
+.articuloPro .arti{
+    width: 30%;
+    margin: 2%;
+}
 
-/* Icono Flotante */
+.articuloPro .arti .img{
+    max-width:  100%; ;
+    border-radius: 100px;
+}
+
+.carousel-item  img{
+    height: 65vh;
+    min-height: 300px;
+
+}
+
+/* Icono Flotante Whatsapp*/
 .iconoW{
     z-index: 20;
     bottom: 20px;
@@ -71,4 +99,77 @@ header ul li a:hover{
     font-size: 35px;
 }
 
+/* Footer*/
+footer{
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #69ac7454 ;
+    z-index: 10;
+}
 
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    text-align: left;
+    }
+    
+.contacto , .sitio{
+    width: 30%;
+    height: auto;
+    margin-bottom: 50px;
+    
+}
+
+footer ul{
+    list-style: none;
+}
+
+.contacto ul li,.sitio ul li{
+    margin: 15px;
+    font-size: 17px;
+    font-family: "Open Sans",sans-serif;
+}
+
+footer .contenedor .sitio ul li a{
+    text-decoration: none;
+    font-family: "Open Sans",sans-serif;
+    color:black;
+}
+#title{
+    font-family: open sans;
+    font-weight:bold;
+    font-size: 17px;
+    color: #2da3c7;
+}
+footer .p{
+    color:rgb(115, 115, 115);
+    }
+
+/* Responsive article*/
+@media(max-width:800px){
+    .articuloPro{
+        display: flex;
+        flex-direction: column;
+    }
+    /* Responsive contenedor footer*/
+    footer .contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    }
+
+    .contacto , .sitio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+}
