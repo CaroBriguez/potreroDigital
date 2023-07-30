@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/Style.css">
+    <link rel="stylesheet" href="../Css/styleContacto.css">
     <link rel="icon" href="../img/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -44,9 +45,68 @@
             </div>
         </nav>
     </header>
+
+    <!--Mapa-->
+    <nav>
+        <div class="mapa">
+            <h1>DONDE ENCONTRARNOS </h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12576.374038332298!2d-57.5524777!3d-37.9982793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc0269a0d309%3A0xa3c1f462a332be0b!2sLos%20Gallegos%20Shopping!5e0!3m2!1ses-419!2sar!4v1690692901301!5m2!1ses-419!2sar"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    
+
+    </nav>
+    </main>
+
+    
+    <!--Formulario-->
+    <main>
+        <h1>COMUNICATE CON NOSOTROS</h1>
+        <form class="formulario">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Telefono">
+            <select name="Motivo" id="Motivo">
+                <option value="consulta">Asunto</option>
+                <option value="consulta">Consulta</option>
+                <option value="presu">Sugerencias</option>
+            </select>
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Mensaje"></textarea>
+            <button class="boton2" type="submit">ENVIAR</button>
+    </form>
     <!-- Icono Flotante-->
     <div class="iconoW">
         <a href="https://www.whatsapp.com/" target="_blank"><button><i class="fa-brands fa-whatsapp"></i></button></a>
     </div>
+
+    <!-- Footer-->
+    <footer>
+        <div class="contenedor">
+            <nav class="sitio">
+                <ul>
+                    <li id="title">NUESTRO SITIO </li>
+                    <li><a href="#">¿Como comprar?</a></li>
+                    <li><a href="#">Terminos y condiciones</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                </ul>
+            </nav>
+    
+            <nav class="contacto">
+                <ul>
+                    <li id="title">CONTACTO</li>
+                    <li>Tel: (223) 4637893 | (011) 6467890</li>
+                    <li>E-mail: tiendanatural@gmail.com.ar | natural@gmail.com</li>
+                    <li>Dirección: Rivadavia 3050, Mar del Plata.</li>
+                </ul>
+            </nav>
+            
+        </div>
+        <p class="p">Tienda Natural 2023</p>
+    
+    </footer>
+    
+
+    <!-- Link de JS de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

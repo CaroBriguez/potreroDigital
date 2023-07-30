@@ -1,0 +1,10 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0 px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* STYLE BODY */
