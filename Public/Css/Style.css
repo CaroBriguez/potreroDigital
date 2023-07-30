@@ -46,7 +46,7 @@ header ul li a:hover{
     padding: 3%;
     width: 100%;
     text-align: center;
-    text-align:center;
+    
 }
 .info h1{
     font-size: 50px;
@@ -69,6 +69,7 @@ header ul li a:hover{
 
 .carousel-item  img{
     height: 75vh;
+    margin-bottom: 20px;
 
 }
 
@@ -99,6 +100,15 @@ header ul li a:hover{
     cursor: pointer;
     font-size: 35px;
 }
+/* TITULO CAPSULAS*/
+.video h3{
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-weight: bold;
+    padding: 3%;
+}
+    
+
 
 /* Footer*/
 footer{
