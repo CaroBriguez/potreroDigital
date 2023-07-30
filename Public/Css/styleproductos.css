@@ -68,6 +68,6 @@ aside section nav a:hover{
     }
     .contenedor main{
         width: 100%;
-
+        justify-content: center;
     }
 }

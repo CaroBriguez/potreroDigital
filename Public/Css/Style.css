@@ -63,7 +63,7 @@ header ul li a:hover{
 }
 
 .articuloPro .arti .img{
-    max-width:  100%; ;
+    max-width:  100%; 
     border-radius: 100px;
 }
 
@@ -107,8 +107,6 @@ header ul li a:hover{
     font-weight: bold;
     padding: 3%;
 }
-    
-
 
 /* Footer*/
 footer{
@@ -168,6 +166,12 @@ footer .p{
         display: flex;
         flex-direction: column;
     }
+
+    .articuloPro .arti{
+        width: 100%;
+        text-align: center;
+    }
+
     /* Responsive contenedor footer*/
     footer .contenedor{
     width: 100%;
