@@ -40,6 +40,8 @@ main .cards p{
     font-weight: bold;
 }
 
-
+main .cards .card-img-top:hover{
+    transform: scale(1.2);
+}
 
 
