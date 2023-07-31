@@ -39,7 +39,7 @@ header ul li a:hover{
 
 
 /* Cuerpo */
-
+/* PRESENTACION PAGINA */
 .info{
     font-family: "Open Sans",sans-serif;
     font-weight: bold;
@@ -51,6 +51,7 @@ header ul li a:hover{
 .info h1{
     font-size: 50px;
 }
+/* style PROPOSITO EMPRESA */
 .articuloPro{
     display: flex;
     flex-direction: row;
@@ -67,10 +68,10 @@ header ul li a:hover{
     border-radius: 100px;
 }
 
+/* STYLE IMG CARRUSEL */
 .carousel-item  img{
     height: 75vh;
     margin-bottom: 20px;
-
 }
 
 /* Icono Flotante Whatsapp*/
