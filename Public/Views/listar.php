@@ -78,6 +78,7 @@
                         <th scope="col">PRODUCTO</th>
                         <th scope="col">PRECIO</th>
                         <th scope="col">IMAGEN</th>
+                        <th scope="col">ABM</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -89,7 +90,10 @@
                         echo "<td>" . $reg['producto'] . "</td>";
                         echo "<td>" . $reg['precio'] . "</td>";
                         echo "<td><img src='data:image/jpg;base64," . base64_encode($reg['imagen']) . "' alt='' style='max-width:100px; max-height:100px;'></td>";
+                        echo "<td><a href='delete.php?id=" . $reg['id'] . "' class='btn btn-danger'>Borrar</a></td>";
+                        echo "<td><a href='update.php?id=" . $reg['id'] . "' class='btn btn-primary'>Modificar</a></td>";
                         echo "</tr>";
+
                     }?>
                 </tbody>
             </table>
