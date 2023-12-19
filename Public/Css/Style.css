@@ -77,7 +77,7 @@ header ul li a:hover{
 /* Icono Flotante Whatsapp*/
 .iconoW{
     z-index: 20;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
     position: fixed;
 }
@@ -101,6 +101,28 @@ header ul li a:hover{
     cursor: pointer;
     font-size: 35px;
 }
+/*Icono Login*/
+.login{
+    z-index: 20;
+    bottom: 10px;
+    right: 20px;
+    position: fixed;
+}
+.login button{
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 100% ;
+    border: solid #cd2727;
+}
+.login button :hover{
+    cursor: pointer;
+}
+.login button i:hover{
+    cursor: pointer;
+    font-size: 25px;
+}
+
 /* TITULO CAPSULAS*/
 .video h3{
     text-align: center;

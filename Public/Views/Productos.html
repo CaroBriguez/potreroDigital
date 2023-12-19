@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../Css/styleproductos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>giftsCards</title>
+    <title>PRODUCTOS</title>
 </head>
 
 <body>
@@ -26,8 +26,16 @@
                     <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
                         <li  class="nav-item dropdown border-end border-2">
                             <a class="nav-link" role="button" aria-expanded="false" id="inicio" href="../../index.html">INICIO</a></li>
-                        <li class="nav-item dropdown border-start border-end border-2">
-                            <a class="nav-link" role="button" aria-expanded="false" href="./Productos.html">PRODUCTOS</a></li>
+                            <li class="nav-item dropdown border-start border-end border-2">
+                                <a class="nav-link dropdown-toggle" href="./Public/Views/Productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PRODUCTOS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Higiene Bucal</a></li>
+                                    <li><a class="dropdown-item" href="#">Cuidado Capilar</a></li>
+                                    <li><a class="dropdown-item" href="#">Botellas</a></li>
+                                    <li><a class="dropdown-item" href="#">Varios</a></li>
+                                </ul>
+                            </li>
                         <li class="nav-item dropdown border-start border-end border-2">
                             <a class="nav-link" role="button" aria-expanded="false" href="./regalos.html" >REGALOS</a></li>
                         <li class="nav-item dropdown border-start">
@@ -47,18 +55,6 @@
     </header>
     <!-- Productos-->
     <div class="contenedor"> 
-        <aside>
-            <section>
-                <nav>
-                    <ul>
-                        <li><a href="#bambu">HIGIENE BUCAL</a> </li>
-                        <li><a href="#cc">CUIDADOCAPILAR</a></li>
-                        <li><a href="#bote">BOTELLAS</a></li>
-                        <li><a href="#varios">VARIOS</a></li>  
-                    </ul>
-                </nav>
-            </section>
-        </aside>
         <main>
             <p class="titulos" id="bambu">HIGIENE BUCAL</p>
             <div class="card text-center mb-4 me-4 " style="width: 18rem;" class= "tarjeta">
@@ -203,9 +199,16 @@
             </div>
         </main>
     </div>
+    
     <!-- Icono Flotante-->
     <div class="iconoW">
         <a href="https://www.whatsapp.com/" target="_blank"><button><i class="fa-brands fa-whatsapp"></i></button></a>
+    </div>
+    <!-- Icono LOGIN-->
+    <div class="login">
+        <a href="../Login/login.php">
+            <button><i class="fa-solid fa-user-large" style="color: #ec7355;"></i></button>
+        </a>
     </div>
     <!-- Footer-->
     <footer>
