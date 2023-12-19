@@ -68,7 +68,7 @@
         <a href="./filterBotellas.php">FILTRAR BOTELLAS</a>
         <a href="./filterCapilar.php">FILTRAR CAPILAR</a>
         <a href="./filterVarios.php">FILTRAR VARIOS</a>
-
+        <button type="button" class="btn btn-warning ">Agregar Producto</button>
         <?php print "<pre>\n";?>
             <table class="table table-striped-columns">
                 <thead>
